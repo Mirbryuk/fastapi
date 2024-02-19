@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastapi1"
+version = "0.1.0"
+description = ""
+authors = ["Mirbryuk <mashamirbryuk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = "^0.27.1"
+fastapi="^0.109.2"
+sqlalchemy = "^2.0.24"
+python-dotenv = "^1.0.0"
+alembic = "^1.13.1"
+psycopg = "^3.1.16"
+asyncpg = "^0.29.0"
+postgres = "^4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
